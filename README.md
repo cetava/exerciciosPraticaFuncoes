@@ -4,15 +4,15 @@
 
 Crie um app que...
 
- - [ ] Tenha uma classe Avião, que tem modelo e cidade.
- - [ ] Tenha uma classe PessoaFisica que tem nome e CPF.
- - [ ] Tenha uma classe PessoaJuridica que tem nome e CNPJ.
- - [ ] Tenha uma classe Cachorro, que tem nome e raça.
- - [ ] Tenha uma classe Caneta, que tem marca.
+ - [x] Tenha uma classe Avião, que tem modelo e cidade.
+ - [x] Tenha uma classe PessoaFisica que tem nome e CPF.
+ - [x] Tenha uma classe PessoaJuridica que tem nome e CNPJ.
+ - [x] Tenha uma classe Cachorro, que tem nome e raça.
+ - [x] Tenha uma classe Caneta, que tem marca.
 
-- [ ] Coloque um UISearchBar na tela. Quando o usuário pesquisar, ele pode pesquisar por QUALQUER propriedade de qualquer objeto.
+- [x] Coloque um UISearchBar na tela. Quando o usuário pesquisar, ele pode pesquisar por QUALQUER propriedade de qualquer objeto.
 
-- [ ] Deve haver uma label com a lista, quando o usuário pesquisar por outro termo, deve continuar pesquisando na lista completa, e nao só no resultado.
+- [x] Deve haver uma label com a lista, quando o usuário pesquisar por outro termo, deve continuar pesquisando na lista completa, e nao só no resultado.
 
  ### * Use protocolos para resolver.
 
@@ -27,22 +27,22 @@ Crie um app que...
 - [x] Não é possível acessar propriedades por fora da classe.
 
 - [x] Existem os métodos:
-- - Somar
-- - Subtrair
-- - Dividir 
-- - Multiplicar
+ - Somar
+ - Subtrair
+ - Dividir 
+ - Multiplicar
 
 -  [x] Nesses métodos, será possível passar 2 parametros, e deverá retornar o resultado matemático. O segundo parametro deve ser opcional, sendo que se eu passar só o primeiro, deve retornar o primeiro numero sem ser alterador por contas. MAS se eu já tiver feito uma operação antes, ele deve armazenar o total, e quando eu passar só um parametro, deve levar em conta o resultado já existente.
 
-- Ex: 
-- - somar(1,1) 
-- - retorna 2
-- - dividir(1,nil)
-- - retorna 2
+- Ex:  
+ - somar(1,1) 
+ - retorna 2
+ - dividir(1,nil)
+ - retorna 2
 
 - Ex:
-- - somar(1, nil)
-- - retorna 1
+ - somar(1, nil)
+ - retorna 1
 
 
 ### * Não deve haver prints na classe da calculadora.
